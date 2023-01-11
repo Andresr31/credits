@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #ef7f4d;
+  color: #1d68a7;
   text-decoration: none;
 }
 
@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background: #00A6E4;
 }
 #hero .btn-get-started:hover {
-  background: #ef7f4d;
+  background: #1d68a7;
 }
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -535,13 +535,13 @@ section {
 }
 .services .icon-box:hover {
   transform: translateY(-5px);
-  border-color: #ef7f4d;
+  border-color: #1d68a7;
 }
 .services .icon i {
   font-size: 48px;
   line-height: 1;
   margin-bottom: 15px;
-  color: #ef7f4d;
+  color: #1d68a7;
 }
 .services .title {
   font-weight: 700;
@@ -1034,7 +1034,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #ef7f4d;
+  background: #1d68a7;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1184,7 +1184,7 @@ section {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #ef7f4d;
+  background: #1d68a7;
   color: #fff;
   text-decoration: none;
 }

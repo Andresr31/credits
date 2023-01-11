@@ -10903,29 +10903,29 @@ a.text-dark:focus {
   }
 }
 
-.bg-novac-light{
+.bg-credits-light{
   background-color: #ff8000;
 }
 
-.bg-novac {
-  background-color: #E1581B;
+.bg-credits {
+  background-color: #1d68a7;
 }
 
-.btn-novac {
+.btn-credits {
   background-color: #00A6E4;
   color: rgba(255, 255, 255, 0.9);
 }
 
-.btn-novac:hover {
+.btn-credits:hover {
   color: white;
 }
 
 .btn-link {
-  color: #E1581B;
+  color: #1d68a7;
 }
 
 .btn-link:hover {
-  color: #E1581B;
+  color: #1d68a7;
 }
 
 .navbar-brand {
@@ -10999,7 +10999,7 @@ ul.pagination .page-item .page-link {
 }
 
 i:hover{
-  color: #E1581B;
+  color: #1d68a7;
 }
 
 .slider p {
@@ -11047,7 +11047,7 @@ figure.img-fcard {
   margin-top: 3px;
 }
 
-.list-group-item.active-novac {
+.list-group-item.active-credits {
   z-index: 2;
   color: #fff;
   background-color: #ff8000;
