@@ -52,7 +52,7 @@
                                     </div>
                                 </div> --}}
 
-                                <div class="col-md-4 mt-3">
+                                {{-- <div class="col-md-4 mt-3">
                                     <div class="card">
                                         <img src="{{ asset('img/elements/bg-simulator.svg') }}" width="250px"
                                             height="200px" class="my-2 img-top-card img-module" height="154px">
@@ -63,7 +63,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                                 {{--  --}}
                                 {{-- <div class="col-md-4 mt-3">
                                     <div class="card">
