@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CreditController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,8 +20,20 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::group(['middleware' => 'auth'], function () {
 
-Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+    Route::post('/fees',[CreditController::class, 'payFee'])->name('fees.pay');
+
+    Route::resources([
+        // 'customers' => CustomerController::class,
+        // 'advisers' => AdviserController::class,
+        // 'capitalizations' => CapitalizationController::class,
+        // 'costs' => AdditionalCostController ::class,
+        'credits' => CreditController::class,
+    ]);
+    
+
+});

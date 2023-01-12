@@ -125,9 +125,15 @@
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h1>Credits</h1>
           <h2>La plataforma que estabas buscando, acá te prestamos fácil y rápido</h2>
-          <div>
-            <a href="{{ route('login') }}" class="btn-get-started scrollto">Iniciar sesión</a>
-          </div>
+          @auth
+            <div>
+              <a href="{{ route('home') }}" class="btn-get-started scrollto">Home</a>
+            </div>
+          @else
+            <div>
+              <a href="{{ route('login') }}" class="btn-get-started scrollto">Iniciar sesión</a>
+            </div>
+          @endif
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img">
           <img src="{{asset('img/welcome/hero-img.svg') }}"class="img-fluid animated" alt="">

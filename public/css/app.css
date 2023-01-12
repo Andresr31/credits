@@ -10904,7 +10904,7 @@ a.text-dark:focus {
 }
 
 .bg-credits-light{
-  background-color: #ff8000;
+  background-color: #00A6E4;
 }
 
 .bg-credits {
@@ -11050,7 +11050,7 @@ figure.img-fcard {
 .list-group-item.active-credits {
   z-index: 2;
   color: #fff;
-  background-color: #ff8000;
-  border-color: #ff8000;
+  background-color: #00A6E4;
+  border-color: #00A6E4;
 }
 
