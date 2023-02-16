@@ -21,10 +21,10 @@
                                 <thead>
                                     <tr>
                                         <th>ID</th>
+                                        <th>Cliente</th>
                                         <th>Valor Total</th>
                                         <th>Valor Restante</th>
                                         <th>Cuotas Restantes</th>
-                                        <th>Cliente</th>
                                         <th>Estado</th>
                                         <th>Creado en</th>
                                         <th class="text-muted">Acciones</th>
@@ -35,10 +35,10 @@
                                     @foreach ($credits as $credit)
                                         <tr>
                                             <td>{{ $credit->id }}</td>
+                                            <td>{{ $credit->customer()->fullname }}</td>
                                             <td>S/. {{ $credit->total_amount }}</td>
                                             <td>S/. {{ $credit->partial_amount }}</td>
                                             <td>{{ $credit->number_fees }}</td>
-                                            <td>{{ $credit->customer()->fullname }}</td>
                                             @switch($credit->status)
                                                 @case("active")
                                                     <td class="alert alert-warning">Activo</td>
